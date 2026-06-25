@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index3.css">
+    <style>
+        /* p{
+            color: black;
+            background-color: gray;
+            padding: 24px;
+        } */
+        .heading + p{
+            background-color: rebeccapurple;
+            padding: 10px;
+         }
+         input[type="number"]{
+            background-color: green;
+            color: yellow;
+         }
+         input::placeholder{
+            color: yellow;
+         }
+    </style>
+</head>
+<body>
+    <!-- css 3 types
+    1) . inline css
+    2) . internal css 
+    3) . external css 
+
+    selector :- 
+    1) element selector(tag selector) 
+    2) id selector (#) (js m getElementById kewal ek hi ko change krta h css m to abhi to dono ko change kr dega color but js m nhi hota h ase es liye id ko ham unique rakhte h )
+    3) class selector (.)
+
+    -->
+
+    <!-- ....................................... -->
+
+    <p id="text" style="background-color: aqua;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam adipisci eveniet tempora delectus eos nisi consequuntur doloribus harum veritatis nam.</p>
+
+    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam adipisci eveniet tempora delectus eos nisi consequuntur doloribus harum veritatis nam.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam adipisci eveniet tempora delectus eos nisi consequuntur doloribus harum veritatis nam.</p>
+
+    <h1>Product list :-</h1>
+    <div class="maincontainer">
+        <div class="container">
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/61+D5ld-tiL._AC_UL330_SR330,330_.jpg" alt="" class="productImage">
+
+            <p class="productTitle" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nam eligendi accusamus vitae libero praesentium! Beatae dolorem quaerat repellendus quis!</p>
+              <p class="productPrice">Rs.<span style="text-decoration: line-through;">10000</span> <span>7999</span></p>
+        </div>
+        <div class="container">
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/61+D5ld-tiL._AC_UL330_SR330,330_.jpg" alt="" class="productImage">
+            <p class="productTitle" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nam eligendi accusamus vitae libero praesentium! Beatae dolorem quaerat repellendus quis!</p>
+              <p class="productPrice">Rs.<span style="text-decoration: line-through;">10000</span> <span>7999</span></p>
+        </div>
+        <div class="container">
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/61+D5ld-tiL._AC_UL330_SR330,330_.jpg" alt="" class="productImage">
+            <p class="productTitle" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nam eligendi accusamus vitae libero praesentium! Beatae dolorem quaerat repellendus quis!</p>
+              <p class="productPrice">Rs.<span style="text-decoration: line-through;">10000</span> <span>7999</span></p>
+        </div>
+        <div class="container">
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/61+D5ld-tiL._AC_UL330_SR330,330_.jpg" alt="" class="productImage">
+            <p class="productTitle" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nam eligendi accusamus vitae libero praesentium! Beatae dolorem quaerat repellendus quis!</p>
+            <p class="productPrice">Rs.<span style="text-decoration: line-through;">10000</span> <span>7999</span></p>
+        </div>
+        <div class="container">
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/61+D5ld-tiL._AC_UL330_SR330,330_.jpg" alt="" class="productImage">
+            <p class="productTitle" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nam eligendi accusamus vitae libero praesentium! Beatae dolorem quaerat repellendus quis!</p>
+             <p class="productPrice">Rs.<span style="text-decoration: line-through;">10000</span> <span>7999</span></p>
+        </div>
+     
+    </div>
+
+    <!-- ........................................ -->
+    <h1 class="heading">heading.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <!-- ................................... -->
+     <input type="number" placeholder="Enter your name">
+
+</body>
+</html>
+
+
+<!-- Box-shadow kaise kaam karta hai
+box-shadow: x-axis y-axis blur color;
+box-shadow: 1px 1px 5px gray;
+
+1px → right side shadow
+1px → niche shadow
+5px → blur (jitna zyada, utna soft)
+gray → shadow color 
+
+1) . Adjacent Sibling CSS ka ek selector hota hai.
+Ye HTML me kisi element ke turant baad wale sibling element ko select karta hai.
+
+element1 + element2 {
+   property: value;
+}
+
+<h1>Hello</h1>
+<p>This is paragraph 1</p>
+<p>This is paragraph 2</p>
+
+h1 + p {
+   color: red;
+}
+
+2). General Sibling Selector → ~
+h1 ~ p
+Ye h1 ke baad aane wale sab p ko select karega.
+
+-->

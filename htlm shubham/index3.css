@@ -1,0 +1,32 @@
+#text {
+  color: red;
+}
+
+.maincontainer {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container {
+  /* background-color: gray; */
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 12px #9c9c9c;
+}
+
+.productImage {
+  width: 250px;
+  border-radius: 20px;
+}
+.productTitle {
+  width: 250px;
+  color: #6a6363;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.productPrice {
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(56, 53, 53);
+}

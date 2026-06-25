@@ -1,0 +1,5 @@
+typeScript/basictypescript/node_modules/
+typeScript/basictypescript/dist/
+
+**/node_modules/
+**/dist/

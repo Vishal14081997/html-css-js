@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            /* width: 200px; 
+            height: 200px; */
+            background-color: green;
+            border: solid 1px white;
+        }
+
+        #container {
+            height: 500px;
+            display: grid;
+            border: 2px solid brown;
+            grid-template-columns: 1fr 2fr 3fr;
+
+            /* grid-template-columns: repeat(3 , 1fr);
+            grid-template-rows: 1fr 2fr 3fr; */
+
+            /* grid-template-columns: repeat(3,100px); 
+            grid-template-rows: repeat(3,100px); 
+            justify-content: space-around;  */
+            /* align-items: stretch; */
+            gap: 10px;
+            /* overflow: hidden; */
+        }
+
+        #item-1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+
+        #item-5 {
+            grid-column-start: 2;
+            grid-column-end: -1;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+
+        /* #item-1{
+            overflow: auto;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- div.box#item-${Box-$}*9 -->
+    <div id="container">
+        <!-- <div class="box" id="item-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque repellendus mollitia odio. Sint obcaecati soluta inventore reprehenderit laboriosam optio quasi tempore labore odio molestias ad blanditiis, impedit ex minima. Consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, incidunt rerum quo, doloremque commodi quaerat error quas accusantium vero aut perferendis laudantium facilis ducimus quidem aliquid corrupti neque placeat odit.</div> -->
+        <div class="box" id="item-1">Box-1</div>
+        <div class="box" id="item-2">Box-2</div>
+        <div class="box" id="item-3">Box-3</div>
+        <div class="box" id="item-4">Box-4</div>
+        <div class="box" id="item-5">Box-5</div>
+        <div class="box" id="item-6">Box-6</div>
+        <div class="box" id="item-7">Box-7</div>
+        <div class="box" id="item-8">Box-8</div>
+        <div class="box" id="item-9">Box-9</div>
+        <div class="box" id="item-10">Box-10</div>
+        <div class="box" id="item-11">Box-11</div>
+        <div class="box" id="item-12">Box-12</div>
+    </div>
+</body>
+
+</html>
