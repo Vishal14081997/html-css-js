@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.conatainer{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 20px;
+
+}
+.conatainer .common{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+.common:nth-child(odd){
+    background-color: aqua;
+}
+.common:nth-child(even){
+background-color: blue;
+}
+@media (max-width : 992px) {
+    .conatainer{
+        grid-template-columns: repeat(1 , 1fr);
+        width: 100%;
+        padding: 20px;
+    }
+    .conatainer .common{
+        width: 100%;
+    }
+    
+}
+@media (max-width:768px) { 
+   .conatainer{
+    grid-template-columns: repeat(1 ,1fr);
+    width: 100%;
+    padding: 20px;
+   }
+   .conatainer .common{
+    width: 100%;
+}
+}
