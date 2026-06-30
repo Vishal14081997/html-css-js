@@ -1,0 +1,109 @@
+/* .box {
+  width: 100px;
+  height: 100px;
+  animation: colorchange 3s infinite;
+}
+
+@keyframes colorchange {
+  from {
+    background: red;
+  }
+  to {
+    background: blue;
+  }
+} */
+
+/* .box{
+    width:100px;
+    height:100px;
+    background:orange;
+    position:relative;
+    animation: moveBox 3s infinite;
+}
+@keyframes moveBox{
+    from{
+        left:0px;
+    }
+    to{
+        left:300px;
+    }
+} */
+
+/* .box{
+    width:100px;
+    height:100px;
+    background:orange;
+    position:relative;
+    animation: move 3s infinite;
+}
+@keyframes move{
+    0%{
+        left:0px;
+    }
+    25%{
+        left:100px;
+        background-color: rebeccapurple;
+    }
+    50%{
+        left:200px;
+        background-color: forestgreen;
+    }
+    100%{
+        left:300px;
+        background-color: burlywood;
+    }
+} */
+
+/* .box {
+  height: 100px;
+  width: 100px;
+  animation: rotatebox 2s infinite linear;
+  background: rebeccapurple;
+}
+
+@keyframes rotatebox {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+
+  animation: rectangleMove 5s infinite linear;
+}
+
+@keyframes rectangleMove {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 300px;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 300px;
+  }
+  75% {
+    left: 0;
+    top: 300px;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
