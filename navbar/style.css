@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+.flipkart {
+  display: flex;
+  gap: 20px;
+}
+.location {
+  display: flex;
+  gap: 10px;
+  color: wheat;
+}
+.delivery {
+  display: flex;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 5px;
+}
+.delivery img {
+  width: 20px;
+}
+.navbar {
+  background-color: black;
+  color: wheat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+}
+.search {
+  display: flex;
+  padding: 10px;
+  width: 70%;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  border: 2px solid #bfd11a;
+}
+
+.search input {
+  outline: none;
+  font-size: 16px;
+  border: none;
+}
+.search i {
+  color: gray;
+  font-size: 20px;
+}
+.item {
+  display: flex;
+  gap: 10px;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .flipkart {
+    flex-wrap: wrap;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+}
