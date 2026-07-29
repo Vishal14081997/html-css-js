@@ -82,9 +82,9 @@
 // let secondVariable = !firstVariable
 // console.log(secondVariable);
 
-// let firstVariable = {};
-// let secondVariable = !firstVariable
-// console.log(secondVariable);
+let firstVariable = {};
+let secondVariable = !firstVariable
+console.log(secondVariable);
 
 
 // && (and) || (OR)
@@ -148,12 +148,12 @@
 // console.log(firstVariable == secondVariable);
 
 
-let firstVariable = false;
-let secondVariable = "false"; // it is trueth value
+// let firstVariable = false;
+// let secondVariable = "false"; // it is trueth value
 
-console.log(firstVariable == secondVariable);
+// console.log(firstVariable == secondVariable);
 
-//! strict equat - === 
+//! strict Equality  === 
 
 // let firstVariable = 10 ;
 // let secondVariable = "10";
