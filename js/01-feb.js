@@ -1,0 +1,92 @@
+//!------- Spread operators and rest operators--------
+
+// let arr1 = [10, 20, 30, 40, 50]
+// let arr2 = [10, 20, 30, 40, 50]
+
+// // console.log(arr1 == arr2);
+
+// let arr3 = [100, 200, 300, 400, 500]
+// let arr4 = arr3;
+// // console.log(arr3 == arr4);
+
+// arr3[5] = 1000;
+// console.log(arr3);
+// console.log(arr4);
+
+
+// let data = [
+//     {
+//         productName: "Oneplus",
+//         productPrice: 299
+//     },
+//     {
+//         productName: "Sumsung",
+//         productPrice: 2999
+//     },
+//     {
+//         productName: "Noting",
+//         productPrice: 399
+//     },
+//     {
+//         productName: "Iphone",
+//         productPrice: 299
+//     }
+// ]
+// // modifiedData = data;
+// modifiedData = [...data];
+
+// modifiedData[4] = {
+//     productName: "Vivo",
+//     productPrice: 400
+// }
+// console.log("modified data", modifiedData);
+// console.log("original data", data);
+
+
+
+// let arr1 = [10, 20, 30,]
+// let arr2 = [100, 200, 300]
+// let arr3 = [...arr1, ...arr2 , "vishal"]
+// console.log(arr3);
+
+
+// let obj1 = {
+//     firstName: 'vishal',
+//     lastName: "singh"
+// }
+// let obj2 = {
+//     gender: 'Male',
+//     age: 100,
+//     firstName:"rajesh"
+// }
+// let arr1 = [10, 20, 30,]
+
+// let obj3 = { ...obj1, ...obj2, ...arr1 , firstName:"suman" }
+// console.log(obj3);
+
+
+//!------ rest operators -------
+
+// let arr = [10, 20, 30, 40, 50];
+
+// destructuring
+// let [firstValue, , thirdValue , ...rest] = arr
+// console.log(firstValue);
+// console.log(thirdValue);
+// console.log(rest);
+
+//! object destructuring 
+
+// let obj = {
+//     firstName: "vishal",
+//     lastName: "singh",
+//     gender: "Male",
+//     age: "200",
+//     address: "Jaipur"
+// }
+// let { age, firstName } = obj; // let firstName = obj.firstName;
+// console.log(firstName);
+// console.log(age);
+
+
+
