@@ -3,11 +3,11 @@
 // let arr1 = [10, 20, 30, 40, 50]
 // let arr2 = [10, 20, 30, 40, 50]
 
-// // console.log(arr1 == arr2);
+// console.log(arr1 == arr2);
 
 // let arr3 = [100, 200, 300, 400, 500]
 // let arr4 = arr3;
-// // console.log(arr3 == arr4);
+// console.log(arr3 == arr4);
 
 // arr3[5] = 1000;
 // console.log(arr3);
@@ -32,7 +32,7 @@
 //         productPrice: 299
 //     }
 // ]
-// // modifiedData = data;
+// modifiedData = data;
 // modifiedData = [...data];
 
 // modifiedData[4] = {
