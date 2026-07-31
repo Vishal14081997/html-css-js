@@ -90,8 +90,61 @@
 // marks <= 100 && marks >= 90 ? console.log("Grade : A+") : marks < 90 && marks >= 80 ? console.log("Grade : A") : marks < 80 && marks >= 70 ? console.log("Grade : B") : marks < 70 && marks >= 60 ? console.log("Grade : C") : marks < 60 && marks >= 50 ? console.log("Grade : D") : marks < 50 ? console.log("Grade : F"):console.log("Grade Something")
 
 
-// loops - 
 
-// for-for , forin , forof ,while , do while
+// let month = 13;
+
+// switch (month) {
+//     case 12:
+//     case 13:
+//     case 14:
+//         console.log("December");
+//         break
+//     case 1:
+//         console.log("January");
+//         break;
+//     case 2:
+//         console.log("February");
+//         break;
+//     case 3:
+//         console.log("March");
+//         break;
+//     case 4:
+//         console.log("April");
+//         break;
+//     case 5:
+//         console.log("May");
+//         break;
+//     case 6:
+//         console.log("June");
+//         break;
+//     case 7:
+//         console.log("July");
+//         break;
+//     case 8:
+//         console.log("August");
+//         break;
+//     case 9:
+//         console.log("September");
+//         break;
+//     case 10:
+//         console.log("October");
+//         break;
+//     case 11:
+//         console.log("November");
+//         break;
+//     default:
+//         console.log("Invalid month number")
+// }
+
+// var food = "apple";
+// switch (food) {
+//     case "apple":
+//     case "banana":
+//     case "orange":
+//         console.log("fruits");
+//     case "carrot":
+//     case "potato":
+//         console.log("vegetables");
+// }
 
 

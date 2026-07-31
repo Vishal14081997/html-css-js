@@ -12,6 +12,9 @@
 // console.log(newArr);
 
 //------------- slice------------
+// does not change original array , return  a new array
+// startIndex ->  included 
+// endIndex -> not included
 
 // let arr = [10,20,30,40,50,60,70]
 
@@ -36,6 +39,9 @@
 // console.log(arr);
 // console.log("return value",returnArr);
 
+// Changes the original array.
+// Returns the removed elements.
+
 //------------- indexOf------------------
 
 // let arr = [10,20,30,40,50,60,50,70,50,80 ]
@@ -55,6 +61,15 @@
 // let isExist = arr.includes(50)
 
 // console.log(isExist);
+
+// const product = ["phone", "tv", "ac"]
+// let newProduct = "ac"
+// if (!product.includes(newProduct)) {
+//     product.push(newProduct)
+// } else {
+//     console.log("item already exists");
+// }
+// console.log(product);
 
 //------------- includes------------------
 
