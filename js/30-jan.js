@@ -18,8 +18,9 @@
 // current iteration skip
 
 // post increment 
-let x =5 ;
-let a = x++; 
+// let x = 5 ;
+// let a = x++; 
+
 // console.log("The value of x is : " , x);
 // console.log("The vale of a is :" , a);
 // Pehle value use hoti hai, baad mein increment hota hai.

@@ -9,6 +9,8 @@
 // let arr4 = arr3;
 // console.log(arr3 == arr4);
 
+// In JavaScript, an Array is a Reference Type (Object). Therefore, == and === do not compare the values inside the arrays; they compare the memory address (reference) of the arrays.
+
 // arr3[5] = 1000;
 // console.log(arr3);
 // console.log(arr4);
