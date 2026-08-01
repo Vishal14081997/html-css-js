@@ -1,4 +1,4 @@
-// push , pop , shift , unshift , concat , slice , splice , indexOf , includes , reverse , join ,sort , map , filter , find , every , some , fill , copywithin , flat , flatmap , findIndex
+// push , pop , shift , unshift , concat , slice , splice , indexOf , includes , reverse , join ,sort , map , filter , reduce , find , every , some , fill , copywithin , flat , flatmap , findIndex
 
 //------------- concat------------
 

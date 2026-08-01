@@ -15,19 +15,21 @@
 //     console.log(i);
 // }
 // console.log("hello Grras");
+// current iteration skip
 
 // post increment 
-// let x =5 ;
-// let a = x++; 
+let x =5 ;
+let a = x++; 
 // console.log("The value of x is : " , x);
 // console.log("The vale of a is :" , a);
+// Pehle value use hoti hai, baad mein increment hota hai.
 
 // pre increment
 // let x = 5;
 // let a = ++x;
 // console.log("The value of x is : ", x);
 // console.log("The vale of a is :", a);
-
+// Pehle increment hota hai, fir value use hoti hai.
 
 // let arr = [10, 20, 40, 30];
 
@@ -39,8 +41,6 @@
 
 
 // Q . write a function to find sum of even number below n ;
-
-// function decleration
 
 // function sumOfEvenNumbers(n) {
 //     let sum = 0
@@ -54,15 +54,6 @@
 // console.log(sumOfEvenNumbers(10));
 
 
-
-// function expression 
-
-// let sum = function(a,b){
-//     console.log(a+b);
-// }
-// sum(10,20)
-// sum(40,20)
-
 // write a function to find sum of all elements of a given array
 
 // let sumOfArray = function (arr) {
@@ -74,11 +65,6 @@
 // }
 // sumOfArray([10, 20])
 
-// arrow function 
-
-// let sum = (a,b)=>{
-//     console.log(a,b);
-// }
 
 // Q . write a function find the sum of all the odd number of given array and also store the all even number in new array.
 
