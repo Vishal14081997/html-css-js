@@ -45,6 +45,15 @@
 // console.log("original data", data);
 
 
+// let arr = [1,2,3];
+
+// let copy = [...arr];
+
+// copy.push(4);
+
+// console.log(arr); //[1,2,3]
+// console.log(copy);// [1,2,3,4]
+
 
 // let arr1 = [10, 20, 30,]
 // let arr2 = [100, 200, 300]
@@ -76,6 +85,7 @@
 // console.log(firstValue);
 // console.log(thirdValue);
 // console.log(rest);
+
 
 //! object destructuring 
 

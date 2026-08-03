@@ -27,8 +27,7 @@
 // console.log("outside the for loop:", a);
 
 
-
-// for (let i = 0; i < 10; i++) {
+// for (let i = 0; i < 5; i++) {
 //     if (true) {
 //         var a = 20;
 //         console.log(a);
@@ -99,7 +98,6 @@
 // }
 
 
-
 // console.log(sum);
 // sum();
 // var sum = function () {
@@ -119,7 +117,7 @@
 
 // push , pop ,shift , unshift
 
-let arr = [10, 30, 40, 20, 50]
+// let arr = [10, 30, 40, 20, 50]
 
 // let pushReturn = arr.push(100);
 // console.log(pushReturn);
