@@ -42,40 +42,65 @@
 //    30  +  40 
 
 
-let cartData = [
-    {
-        productName: "Iphone",
-        productCategory: "smartPhone",
-        productPrice: 1000,
-        qunatity: 2
-    },
-    {
-        productName: "Sumsung",
-        productCategory: "smartPhone",
-        productPrice: 800,
-        qunatity: 100
-    },
-    {
-        productName: "OnePlus",
-        productCategory: "smartPhone",
-        productPrice: 600,
-        qunatity: 10
-    },
-    {
-        productName: "Nothing",
-        productCategory: "smartPhone",
-        productPrice: 800,
-        qunatity: 100
-    },
-]
+// let cartData = [
+//     {
+//         productName: "Iphone",
+//         productCategory: "smartPhone",
+//         productPrice: 1000,
+//         qunatity: 2
+//     },
+//     {
+//         productName: "Sumsung",
+//         productCategory: "smartPhone",
+//         productPrice: 800,
+//         qunatity: 100
+//     },
+//     {
+//         productName: "OnePlus",
+//         productCategory: "smartPhone",
+//         productPrice: 600,
+//         qunatity: 10
+//     },
+//     {
+//         productName: "Nothing",
+//         productCategory: "smartPhone",
+//         productPrice: 800,
+//         qunatity: 100
+//     },
+// ]
 
-cartData.reduce((acc, curr) => {
-    console.log("Acc value : ", acc);
-    console.log("curr value : ", curr);
-    console.log("---- Iteration completed------");
-    
-})
+// let result = cartData.reduce((acc, curr) => {
+//     console.log("Acc value : ", acc);
+//     console.log("curr value : ", curr);
+//     console.log("---- Iteration completed------");
+//     return acc + curr.productPrice*curr.qunatity
+// },0)
+// console.log(result);
 
 
+// -------find-----------
+// let arr = [10, 20, 30, 31, 31, 40, 50]
 
+// let result = arr.find((item) => {
+//     return item > 30
+// });
+// console.log(result);
+
+// -------every---------------
+
+// let arr = [10, 20, 30, 31, 40, 50]
+
+// let result = arr.every((item) => {
+//     return item % 2 ===0
+// });
+// console.log(result);
+
+// -------some---------------
+
+// let arr = [10, 20, 30, 31, 40, 50]
+
+// let result = arr.some((item) => {
+//     return item % 2 ===0
+// });
+// console.log(result);
 

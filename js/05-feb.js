@@ -24,6 +24,7 @@
 // console.log(arr);
 // console.log(newArr);
 
+
 //------------- splice------------
 // add or remove
 
@@ -71,7 +72,7 @@
 // }
 // console.log(product);
 
-//------------- includes------------------
+//------------- reverse------------------
 
 // let arr = [10,20,30,40,50,60,50,70,50,80 ]
 
@@ -97,7 +98,7 @@
 // // arr.sort((a,b)=>{
 // //     return b-a;
 // // });
-// arr.sort((a,b)=>b-a);
+// arr.sort((a,b)=>a-b);
 // console.log("sorted array : ", arr);
 
 
@@ -108,7 +109,7 @@
 
 //----------------- map --------------
 
-let arr = [10, 20, 40, 20, 60, 55];
+// let arr = [10, 20, 40, 20, 60, 55];
 
 // arr.map((item)=>{
 // console.log("the value of item is :" , item);

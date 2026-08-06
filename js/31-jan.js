@@ -43,21 +43,35 @@
 // console.log(addOfNumbers);
 
 
-//! Q. write a funtion processNumbers that takes an array of numbers and a callback. the callback should add 5 to each number and return the update array.
+//! Q. write a funtion that takes an array of numbers and a callback. the callback should add 5 to each number and return the update array.
 
-// function processNumbers(arr, callback) {
+// function addInArray(arr, callback) {
 //     // console.log(arr);
 //     return callback(arr)
 // }
-// function processNumbersCallback(numbersArr) {
+// function addInArrayCallback(numbersArr) {
 //     let updateArr = [];
 //     for (let i = 0; i < numbersArr.length; i++) {
 //         updateArr[i] = numbersArr[i] + 5;
 //     }
 //     return updateArr;
 // }
-// let updatedProcessedNumbers = processNumbers([10, 29, 39, 20, 4, 8, 10], processNumbersCallback);
-// console.log(updatedProcessedNumbers);
+// let data = addInArray([10, 29, 39, 20, 4, 8, 10], addInArrayCallback);
+// console.log(data);
+
+
+// function addInArray(arr, callback) {
+//     // console.log(arr);
+//     return callback(arr)
+// }
+// function addInArrayCallback(arr) {
+//     let updateArr = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         updateArr.push(arr[i] + 5)
+//     }
+//     return updateArr;   
+// }
+// console.log(addInArray([10, 29, 39, 20, 4, 8, 10], addInArrayCallback));
 
 //! write a funtion that takes an array and return the sum of all the elements of array.
 
@@ -79,6 +93,7 @@
 //         productPrice: 299
 //     }
 // ]
+
 // function totalOfCartPrice(data) {
 //     let total = 0
 //     for (let i = 0; i < data.length; i++) {
@@ -88,3 +103,17 @@
 // }
 // let totalpayment = totalOfCartPrice(cartData)
 // console.log(totalpayment);
+
+
+// function addInArray(arr, callback) {
+//     return callback(arr)
+// }
+// function addInArrayCallback(arr) {
+//     let sum = 0;
+//     for (let num of arr) {
+//         sum += num.productPrice
+//     }
+//     return sum;
+// }
+// console.log(addInArray(cartData, addInArrayCallback));
+
