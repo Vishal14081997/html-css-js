@@ -1,4 +1,8 @@
 // -------- filter ----------
+
+// filter array ke har element par condition check karta hai.
+//   Jo condition true hoti hai wahi new array me aata hai.
+
 // let arr = [10, 20, 40, 43, 5, 3, 2, 103]
 
 // let newArr =arr.filter((item)=>{
@@ -19,7 +23,7 @@
 // })
 // console.log(newArr);
 
-// filter original arr m chhec chhad nhi krta h map krta h 
+// filter original arr m change nhi krta h map krta h 
 
 
 // ------------ reduce------------
@@ -78,12 +82,20 @@
 // console.log(result);
 
 
-// -------find-----------
+// -------find-----------------------
+
 // let arr = [10, 20, 30, 31, 31, 40, 50]
 
 // let result = arr.find((item) => {
 //     return item > 30
 // });
+// console.log(result);
+
+// let data = [10, 45, 34, 45, 32] // find : value>30 && value<40
+// let result = data.find(value => value > 30 && value < 40)
+// console.log(result);
+
+// let result = data.findLast(item => item > 30 && item < 40)
 // console.log(result);
 
 // -------every---------------
