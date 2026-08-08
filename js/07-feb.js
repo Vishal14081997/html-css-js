@@ -1,12 +1,17 @@
 // -------fill---------------
 
 // let arr = [10, 20, 30, 31, 40, 50]
+
+// array.fill(value, start, end)
+
 // arr.fill(0,3)
 // arr.fill(0,2,4)
 // arr.fill("hello",2,4)
 // console.log(arr);
 
-// -------flat---------------
+// -------flat---------------------------------
+
+// Nested array ko ek level ya multiple levels tak flat (seedha) bana deta hai.
 
 // let arr = [10, 20, 30, [200,300,400] ,[1000,2000,3000]]
 
@@ -19,9 +24,10 @@
 // console.log(newArr);
 
 
-// --------- copywithin----------
+// ---------------------- copywithin ---------------------------------
 
 // same array s copy krna ho or same hi array m past karna ho to copywithin use krte h
+// array.copyWithin(target, start, end)
 
 // let arr = [10,20,30,40,50,60,70]
 // let newArr = arr.copyWithin(2, 0 , 2 )
@@ -41,15 +47,37 @@
 
 // ------- flatmap----------------------
 
-// const arr = [1, 2, 3];
-// const result = arr.flatMap(num => [num, num * 2]);
+// Pehle map() chalata hai, phir result ko automatically flat(1) kar deta hai.
+// flatMap() = map() + flat()
+
+
+// const arr = [1,2,3];
+// const result = arr.flatMap(num => [num, num*2]);
 // console.log(result);
 
+// const result = arr.map(num => [num, num*2]);
+// console.log(result);
+
+// [
+//  [1,2],
+//  [2,4],
+//  [3,6]
+// ]
+// flatMap()
+// ↓
+// [1,2,2,4,3,6]
+
 // let arr = [10, 21, 30, 41, 50, 60, 70];
-// let newArr =arr.map((item) => {
-//    return item % 2 === 0 ? [(item*2)**2]:[]
+
+// let result = arr.map((item) => {
+//    return item % 2 === 0 ? [item * 2] : [];
 // })
-// console.log(newArr);
+// console.log(result);
+
+// let result = arr.flatMap((item) => {
+//     return item % 2 === 0 ? [item * 2] : [];
+// });
+// console.log(result);
 
 
 // let arr = [10, [], 21, [30], [40], 50];
