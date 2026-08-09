@@ -13,7 +13,7 @@
 // let newStr = str.toLowerCase();
 // console.log(newStr);
 
-// let newStr = str.slice(5 , 11)
+// let newStr = str.slice(0 , 5)
 // console.log(newStr);
 
 
@@ -22,7 +22,7 @@
 // let result = str.split(",")
 // let result = str.split(".")
 // let result = str.split("e")
-
+// let result = str.split(" ")
 // console.log(result);
 
 
@@ -39,8 +39,7 @@
 // console.log(newStr.length);
 
 // let str = "Hello, my name is vishal singh"
-// console.log(str.charAt(1));
-
+// console.log(str.charAt(1)); //कैरेक्टर ऐट (charAt → Character At)
 
 
 // let str = "Hello, my name is vishal singh"
@@ -65,7 +64,7 @@
 // console.log(newStr);
 
 // let str = "5";
-// let newStr = str.padStart(3 ,"0")
+// let newStr = str.padStart(1 ,"0")
 // let newStr = str.padEnd(3 ,"0")
 // console.log(newStr);
 
@@ -87,10 +86,10 @@
 
 
 
-// -----------------Date  Object -----------------
+// -----------------Date Object -----------------
 
-let currentDate = new Date();
-console.log(currentDate);
+// let currentDate = new Date();
+// console.log(currentDate);
 
 // console.log(currentDate.getDate());
 // console.log(currentDate.getFullYear());

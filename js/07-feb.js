@@ -115,6 +115,13 @@
 // let keyValuePair = Object.entries(obj);
 // console.log(keyValuePair);
 
+// const arr = [
+//   ["name", "Vishal"],
+//   ["age", 25]
+// ];
+
+// const obj = Object.fromEntries(arr);
+// console.log(obj);
 
 // let productData = [
 //     {
@@ -164,7 +171,7 @@
 // let isExist = person.hasOwnProperty("firstName");
 // console.log(isExist);
 
-// let obj = {         
+// let obj = {
 //     firstName :"vishal",
 //     lastName:"singh",
 // }
