@@ -91,11 +91,15 @@
 // let currentDate = new Date();
 // console.log(currentDate);
 
+// console.log(typeof new Date()); // Object
+
+// console.log(typeof Date()); // string
+
 // console.log(currentDate.getDate());
 // console.log(currentDate.getFullYear());
 // console.log(currentDate.getDay());
 // console.log(currentDate.getMonth()); // 0-11
-// console.log(currentDate.getTime());
+// console.log(currentDate.getTime()); //1 January 1970 se lekar current date/time tak ke milliseconds return karta hai.
 // console.log(currentDate.toTimeString());
 // console.log(currentDate.getHours());
 // console.log(currentDate.getMinutes());
@@ -103,7 +107,7 @@
 // console.log(currentDate.toString());
 // console.log(currentDate.toDateString());
 // console.log(currentDate.toTimeString());
-// console.log(currentDate.toJSON());
+// console.log(currentDate.toJSON()); // ISO format   // Z ka matlab UTC timezone
 // console.log(currentDate.toLocaleDateString());
 // console.log(currentDate.toLocaleTimeString());
 

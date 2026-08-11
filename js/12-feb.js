@@ -2,19 +2,25 @@
 
 
 // let randomNumber = Math.random()
-// console.log(randomNumber);
+// console.log(randomNumber); // 0 to 1 random number return
 
 // let number = 10.501
 // let newNumber = Math.ceil(number)
+// Math.ceil(10.1);  // 11
+// Math.ceil(10.5);  // 11
+// Math.ceil(10.9);  // 11
+// Math.ceil(10);    // 10
 // let newNumber = Math.floor(number)
-// let newNumber = Math.round(number)
+// let newNumber = Math.round(number) // nearest integer 
 
 // console.log(newNumber);
 
 // let result = Math.pow(2,3)
 // let result = Math.pow(5,1/2)
+// 5^(1/2) = √5
 // let result = Math.pow(5,1/3)
 // let result = Math.pow(16,1/2)
+// √16 = 4
 
 // console.log(result);
 
@@ -22,9 +28,9 @@
 // console.log(result);
 
 
-// Q . generate a 4 digit otp 
+// Q . generate a 4 digit otp
 
-// let number = Math.random(); // 0-1 
+// let number = Math.random(); // 0-1
 
 // console.log((number*10000)); // 0- 10000
 
@@ -50,10 +56,11 @@
 // generateOtp()
 
 
+// -------------------------Types of Type Conversion-----------------
 
-//---- type conversion(Explicit Type Conversion) and type coercion(Implicit Conversion)----
+// Type Conversion ka matlab hota hai ek data type ki value ko dusre data type mein convert karna
 
-// type conversion (Explicit Type Conversion)
+// 1. Explicit Type Conversion (Manually conversion / Type Casting)
 
 // let str = "55";
 // console.log(typeof str);
@@ -76,7 +83,6 @@
 // console.log(typeof newNum , newNum);
 
 
-
 // let firstVar = -10;
 // let firstVar = true;
 // let firstVar = ["hello" , "vishal"];
@@ -85,6 +91,7 @@
 // let conversion = String(firstVar)
 // console.log(typeof conversion , conversion);
 
+// Falsy values- false ,0 ,-0 ,"" ,null ,undefined ,NaN
 
 // let firstVar = 0;
 // let firstVar = -100;
@@ -96,7 +103,9 @@
 // console.log(typeof conversion , conversion);
 
 
-//-------- type coercion---------- 
+//2. Implicit Type Conversion (Automatic / Type Coercion) (को-अर्शन → "Ko-ar-shun")----------
+
+// Compiler khud automatically ek type ko dusre type mein convert kar deta hai, programmer ko manually kuch karne ki zaroorat nahi hoti.
 
 // console.log(5 + "5");
 // console.log("5" + 4);
@@ -108,7 +117,17 @@
 
 // console.log(5 + "true");
 // console.log(5 - true);
+
 // console.log(5 - []);
+// [] ko primitive conversion ke through string banaya jata hai:
+// [] → ""
+// Then:
+// 5 - ""
+// ↓
+// 5 - 0
+// ↓
+// 5
+
 // console.log(5 - [10]);
 // console.log(5 + [10]);
 // console.log(5 + true + "hello");
