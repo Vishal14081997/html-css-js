@@ -4,7 +4,7 @@
 // console.log(window.document); 
 // console.log(document);
 
-// alert("hell world")
+// alert("hello world")
 
 // let firstVar = prompt("Enter the first number")
 // firstVar = Number(firstVar)
@@ -13,7 +13,7 @@
 // let secondVar = confirm("is this  true")
 // console.log(secondVar);
 
-// y web apies k function  h y terminal m nhi dekhenge y ony browser m hi show honge  
+// y web apies k function  h y terminal m nhi dekhenge y only browser m hi show honge  
 
 
 // let mydiv = document.getElementById("container")
