@@ -129,7 +129,7 @@
 // 5
 
 // console.log(5 - [10]);
-// console.log(5 + [10]);
+// console.log(5 + [10, 20]);
 // console.log(5 + true + "hello");
 // console.log("hello" + 5 + true);
 // console.log([] + 1);

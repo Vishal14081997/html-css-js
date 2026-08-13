@@ -1,5 +1,7 @@
 // dom  - document object model
 
+// Browser jab HTML page ko load karta hai, to HTML ko ek tree-like object structure mein convert karta hai. Isi structure ko DOM kehte hain.
+
 // console.log(window);
 // console.log(window.document); 
 // console.log(document);
@@ -13,7 +15,7 @@
 // let secondVar = confirm("is this  true")
 // console.log(secondVar);
 
-// y web apies k function  h y terminal m nhi dekhenge y only browser m hi show honge  
+// y Browser Web APIs k function h y terminal m nhi dekhenge y only browser m hi show honge  
 
 
 // let mydiv = document.getElementById("container")
@@ -29,7 +31,7 @@
 
 // mydiv.style.borderRadius = "50%"
 // mydiv.style.backgroundColor = "yellow"
-
+// 
 // let myInput = document.getElementById("password")
 // console.log(myInput);
 // console.log(myInput.type);
@@ -41,7 +43,6 @@
 // console.log(mydiv.getAttribute("id"));
 // console.log(mydiv.getAttribute("class"));
 
-
 // let mydiv = document.getElementById("container")
 
 // mydiv.setAttribute("class","box")
@@ -52,11 +53,11 @@
 
 //--------- innerHtml , innerTest , textContent-----
 
-let mydiv = document.getElementById("container")
+// let mydiv = document.getElementById("container")
 
-console.log(mydiv.innerHTML);
-console.log(mydiv.innerText);
-console.log(mydiv.textContent);
+// console.log(mydiv.innerHTML);
+// console.log(mydiv.innerText);
+// console.log(mydiv.textContent);
 
 // mydiv.innerHTML = "<input type='text' placeholder='enter name' />";
 
