@@ -31,19 +31,19 @@
 // };
 
 
-// querySelector 
-// querySelectorAll
+// querySelector -Sirf first matching element
+// querySelectorAll -Saare matching elements
 
 // let newdiv = document.querySelector("div")
 // console.log(newdiv);
 
-// let newdiv = document.querySelectorAll(".box")
-// console.log(newdiv);
+let newdiv = document.querySelectorAll(".box")
+console.log(newdiv);
 
 // newdiv.forEach((item)=>{
 //     item.style.background = "green"
 // });
-
+    
 // newdiv.forEach((item) => {
 //     item.addEventListener("click", () => {
 //         item.style.background = "green";
