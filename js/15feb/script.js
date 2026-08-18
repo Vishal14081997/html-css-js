@@ -68,7 +68,6 @@
 //     }
 // })
 
-
 //------------------------------------
 
 // document.getElementById("container").addEventListener("mouseenter", function () {
@@ -111,4 +110,9 @@
 
 //     console.log("Email: ", email);
 //     console.log("Password: ", password);
+// });
+
+
+// document.addEventListener("keydown", function(e) {
+//     console.log(e.key); 
 // });
