@@ -137,7 +137,6 @@ function getUserDetail() {
         newObj.userName = item.userName;
         return newObj;
     })
-
     setTimeout(() => {
         console.log(filterData);
     }, 4000)

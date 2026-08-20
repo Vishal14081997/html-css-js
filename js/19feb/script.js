@@ -90,48 +90,48 @@ let jsonData = {
 
 // 4th (this is right methods)--
 
-function getUserDetail(callback) {
-    setTimeout(() => {
-        let filterData = jsonData.users.map((item) => {
-            let newObj = {};
-            newObj.name = item.name;
-            newObj.userName = item.userName;
-            return newObj;
-        })
-        callback(filterData)
-    }, 4000)
-}
+// function getUserDetail(callback) {
+//     setTimeout(() => {
+//         let filterData = jsonData.users.map((item) => {
+//             let newObj = {};
+//             newObj.name = item.name;
+//             newObj.userName = item.userName;
+//             return newObj;
+//         })
+//         callback(filterData)
+//     }, 4000)
+// }
 
-function getProfileDetails(user, callback) {
-    setTimeout(() => {
-        let profileData = jsonData.users.filter((item) => {
-            return item.userName === user
-        })
-        callback(profileData[0].profile)
-    }, 3000)
-}
+// function getProfileDetails(user, callback) {
+//     setTimeout(() => {
+//         let profileData = jsonData.users.filter((item) => {
+//             return item.userName === user
+//         })
+//         callback(profileData[0].profile)
+//     }, 3000)
+// }
 
-function getPostDetails(user, callback) {
-    setTimeout(() => {
-        let postData = jsonData.users.filter((item) => {
-            return item.userName === user
-        })
-        callback(postData[0].posts)
-    }, 5000)
-}
+// function getPostDetails(user, callback) {
+//     setTimeout(() => {
+//         let postData = jsonData.users.filter((item) => {
+//             return item.userName === user
+//         })
+//         callback(postData[0].posts)
+//     }, 5000)
+// }
 
-getUserDetail((data) => {
-    // console.log(data);
-    data.forEach((element) => {
-        // console.log("user details:",element);
-        getProfileDetails(element.userName, (profile) => {
-            console.log(`profile for ${element.name}`, profile);
-        })
-        getPostDetails(element.userName , (post)=>{
-            console.log(`post for ${element.name}`, post);
-        })
-    })
-});
+// getUserDetail((data) => {
+//     // console.log(data);
+//     data.forEach((element) => {
+//         // console.log("user details:",element);
+//         getProfileDetails(element.userName, (profile) => {
+//             console.log(`profile for ${element.name}`, profile);
+//         })
+//         getPostDetails(element.userName , (post)=>{
+//             console.log(`post for ${element.name}`, post);
+//         })
+//     })
+// });
 
 // es ko callback hell  bolte hai (callback ki ek chain hoti h ek callback dusre callback pr depand rahta h )
 
@@ -299,4 +299,10 @@ getUserDetail((data) => {
 //   .catch((error) => {
 //     console.log(error);
 //   });
+
+
+
+
+
+
 
