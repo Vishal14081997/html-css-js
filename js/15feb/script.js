@@ -27,6 +27,9 @@
 //     console.log(number1 + number2);
 // }
 
+// .onclick = sum; - correct 
+// .onclick = sum(); - function turant execute ho jata, button click ka wait nahi karta.
+
 // document.getElementById("button2").onclick = function () {
 //     let number1 = Number(document.getElementById("number1").value);
 //     let number2 = Number(document.getElementById("number2").value);
@@ -103,16 +106,15 @@
 
 // 5th ---
 
-// document.getElementById("loginForm").addEventListener("submit", function (event) {
-//     event.preventDefault();
-//     let email = document.getElementById("email").value;
-//     let password = document.getElementById("password").value;
+document.getElementById("loginForm").addEventListener("submit", function (event) {
+    event.preventDefault();
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
 
-//     console.log("Email: ", email);
-//     console.log("Password: ", password);
-// });
+    console.log("Email: ", email);
+    console.log("Password: ", password);
+});
 
-
-// document.addEventListener("keydown", function(e) {
-//     console.log(e.key); 
-// });
+document.addEventListener("keydown", function(e) {
+    console.log(e.key); 
+});
