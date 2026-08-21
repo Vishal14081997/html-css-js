@@ -9,6 +9,7 @@ body{
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    font-family: sans-serif;
 }
 #container{
     width: 100%;
@@ -26,13 +27,13 @@ body{
     box-shadow: 1px 1px 8px 0px #a1a1a1;
 }
 #input-box{
-    height: 10%;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #search-input{
-    border: 1px solid #cecece;
+    border: 1px solid #ffffff;
     display: inline-block;
     border-radius: 4px;
 }
@@ -43,15 +44,16 @@ body{
     outline: none;
     outline: none;
     padding: 0 4px;
-    color: #cecece;
+    color: #ffffff;
 }
 #input::placeholder{
-    color: #cecece;
+    color: #ffffff;
 }
 #search-button{
-    background-color:#cecece;
+    background-color:#ffffff;
     border: none;
     padding: 5px;
+    cursor: pointer;
 }
 #search-icon{
     width: 20px;
@@ -59,7 +61,29 @@ body{
 
 #middle{
     height: 50%;
+    display: flex;
+    justify-content:  space-around;
+    color: white;
+    font-weight: 500;
+   text-align: center;
 }
+
+#city-name{
+    font-size: 80px;
+}
+#current-date{
+    font-size: 20px;
+}
+#min-max-temp{
+    font-size: 30px;
+}
+#current-temp{
+    font-size: 100px;
+}
+#weather-image{
+    width: 100px;
+}
+
 #lower{
     height: 40%;
 }

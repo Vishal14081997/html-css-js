@@ -83,7 +83,7 @@ let jsonData = {
 
 //     profileData = filterData[0].profile
 //     console.log(profileData);
-    
+
 //   }, 3000)
 // }
 // getProfileDetail("Ankit1408")
@@ -174,7 +174,7 @@ let jsonData = {
 //     })
 // }
 // const userDetails = getUserDetail()
-// // console.log(userDetails);
+// console.log(userDetails);
 
 // userDetails
 //     .then((data) => {
@@ -187,51 +187,53 @@ let jsonData = {
 // 2nd way---------
 
 // function getUserDetail() {
-//     return new Promise((resole, reject) => {
-//         setTimeout(() => {
-//             let filterData = jsonData.users.map((item) => {
-//                 let newObj = {};
-//                 newObj.name = item.name;
-//                 newObj.userName = item.userName;
-//                 return newObj;
-//             })
-//             resole(filterData)
-//             // reject("Error")
-//         }, 4000)
-//     })
+//   return new Promise((resole, reject) => {
+//     setTimeout(() => {
+//       let filterData = jsonData.users.map((item) => {
+//         let newObj = {};
+//         newObj.name = item.name;
+//         newObj.userName = item.userName;
+//         return newObj;
+//       });
+//       resole(filterData);
+//       // reject("Error")
+//     }, 4000);
+//   });
 // }
-// const userDetails = getUserDetail()
-// // console.log(userDetails);
+// const userDetails = getUserDetail();
+// console.log(userDetails);
 
 // function getProfileDetail(user) {
-//     return new Promise((resole, reject) => {
-//         setTimeout(() => {
-//             let profileData = jsonData.users.filter((item) => {
-//                 return item.userName === user
-//             })
-//             resole(profileData[0].profile);
-//         }, 3000)
-//     })
+//   return new Promise((resole, reject) => {
+//     setTimeout(() => {
+//       let profileData = jsonData.users.filter((item) => {
+//         return item.userName === user;
+//       });
+//       resole(profileData[0].profile);
+//     }, 3000);
+//   });
 // }
 // userDetails
-//     .then((data) => {
-//         console.log(data);
-//         data.forEach((element) => {
-//             getProfileDetail(element.userName)
-//                 .then((d) => {
-//                     console.log(d);
-//                 })
-//                 .catch((error) => {
-//                     console.log(error);
-//                 })
+//   .then((data) => {
+//     console.log(data);
+//     data.forEach((element) => {
+//       const profileData = getProfileDetail(element.userName);
+//       console.log(profileData);
+//       profileData
+//         .then((d) => {
+//           console.log(d);
 //         })
-//     })
-//     .catch((error) => {
-//         console.log(error);
-//     })
-//     .finally(() => {
-//         console.log("user details fetched");
-//     })
+//         .catch((error) => {
+//           console.log(error);
+//         });
+//     });
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   })
+//   .finally(() => {
+//     console.log("user details fetched");
+//   });
 
 // 3rd-------
 
@@ -280,7 +282,6 @@ let jsonData = {
 //     console.log(error);
 //   });
 
-
 // 4th ---
 
 // let promiseArray = [
@@ -290,7 +291,7 @@ let jsonData = {
 // //   new Promise((resole, reject) => reject("error")),
 // ];
 
-// // console.log(promiseArray);
+// // // console.log(promiseArray);
 
 // Promise.all(promiseArray)
 //   .then((result) => {
@@ -299,10 +300,3 @@ let jsonData = {
 //   .catch((error) => {
 //     console.log(error);
 //   });
-
-
-
-
-
-
-
