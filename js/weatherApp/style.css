@@ -85,5 +85,17 @@ body{
 }
 
 #lower{
-    height: 40%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inner{
+    width: 90%;
+    /* background-color: white; */
+    display: flex;
+    overflow: auto;
+    color: white;
+    gap: 20px;
+    scrollbar-width: none;
 }
