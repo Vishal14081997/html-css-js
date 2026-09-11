@@ -20,7 +20,6 @@ async function fetchWeatherForecastData(city) {
     }
 }
 
-
 document.getElementById("search-button").addEventListener("click", function () {
     let cityName = document.getElementById("input").value;
     //    console.log(cityName);
